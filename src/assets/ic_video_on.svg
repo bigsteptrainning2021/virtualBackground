@@ -1,0 +1,10 @@
+<svg id="video_on" data-name="video on" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <circle id="Ellipse_67" data-name="Ellipse 67" cx="18" cy="18" r="18" fill="#4ec47f"/>
+  <g id="video_on-2" data-name="video on" transform="translate(14873 -3972)">
+    <g id="Rectangle_944" data-name="Rectangle 944" transform="translate(-14867 3978)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="Camera" d="M1.906,7.184C1.5,8.04,1.5,9.16,1.5,11.4v1.2c0,2.24,0,3.36.406,4.216a3.872,3.872,0,0,0,1.626,1.748C4.328,19,5.37,19,7.453,19H9.5c2.084,0,3.126,0,3.922-.436a3.872,3.872,0,0,0,1.626-1.748A4.291,4.291,0,0,0,15.4,15.3a.975.975,0,0,1,1.462-.847l3.225,2.119a.931.931,0,0,0,1.415-.853V8.283a.931.931,0,0,0-1.415-.853L16.859,9.549A.975.975,0,0,1,15.4,8.7a4.291,4.291,0,0,0-.349-1.518,3.872,3.872,0,0,0-1.626-1.748C12.626,5,11.584,5,9.5,5H7.453C5.37,5,4.328,5,3.532,5.436A3.872,3.872,0,0,0,1.906,7.184Z" transform="translate(-14866.5 3978)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

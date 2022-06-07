@@ -1,0 +1,40 @@
+<div *ngIf="allowDevice" class="intro">
+  <h1>Please click on button to Continue.....</h1>
+  <button (click)="allowDevices()">Allow Camera & Mic</button>
+</div>
+
+<div class="parent" *ngIf="!allowDevice">
+  <div>
+    <div class="stream" id="stream"></div>
+    <!-- <div class="streams" *ngIf="loading_flag">
+      <img src="../../assets/Loading_icon.gif" />
+    </div> -->
+    <video
+      class="canvas"
+      id="video"
+      width="960px"
+      height="540px"
+      #video
+    ></video>
+  </div>
+  <div class="buttons">
+    <img src="../../assets/ic_video_on.svg" *ngIf="isStreamplay" (click)="pauseVideo()" title="Camera off"/>
+    <img src="../../assets/ic_video_off.svg"*ngIf="!isStreamplay" (click)="pauseVideo()" title="Camera on"/>
+
+    <img src="../../assets/cross.png" (click)="removeBackground()" title="Remove background"/>
+    
+  </div>
+  <div class="backgrounds">
+    <div *ngFor="let item of [].constructor(6); index as i">
+      <div
+        class="list"
+        title="background"
+        [ngClass]="{active: i===imageName-1}"
+        (click)="selectBackgroundImage(i + 1, 'image')"
+      >
+        <img src="../../assets/{{ i + 1 }}.png" />
+      </div>
+    </div>
+    <div class="box" (click)="selectBackgroundImage(20, 'blur')" [ngClass]="{active: imageName===20}">Blurr</div>
+  </div>
+</div>

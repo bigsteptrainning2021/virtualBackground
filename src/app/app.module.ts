@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LocalStreamComponent } from './local-stream/local-stream.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LocalStreamComponent
   ],
   imports: [
     BrowserModule,
